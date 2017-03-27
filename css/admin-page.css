@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+.sirn-theme-and-plugin-exporter-admin-wrap .plugin-intro {
+	margin: 0.2em 0 0.2em 4em;
+	font-style: italic;
+	max-width: 680px;
+}
+
+.sirn-theme-and-plugin-exporter-admin-wrap .checkbox-items-list,
+.sirn-theme-and-plugin-exporter-admin-wrap .link-items-list {
+	padding-left: 4em;
+}
+
+.sirn-theme-and-plugin-exporter-admin-wrap .checkbox-items-list label,
+.sirn-theme-and-plugin-exporter-admin-wrap .link-items-list a,
+.sirn-theme-and-plugin-exporter-admin-wrap .no-item-available {
+	padding: 0 1em 0.2em;
+}
+
+.sirn-theme-and-plugin-exporter-admin-wrap .checkbox-items-list label:hover,
+.sirn-theme-and-plugin-exporter-admin-wrap .link-items-list a:hover {
+	font-style: italic;
+	background-color: rgba( 240, 235, 80, 0.4 ) ;
+	font-weight: bold;
+}

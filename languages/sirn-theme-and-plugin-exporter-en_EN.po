@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sirmons Theme and Plugin Exporter v1.0.0\n"
+"POT-Creation-Date: 2015-05-05 10:47+0100\n"
+"PO-Revision-Date: 2015-05-05 17:03+0100\n"
+"Last-Translator: test <test@test.test>\n"
+"Language-Team: Nathanael SIRMONS <sirn-theme-and-plugin-exporter@audaxland."
+"fr>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html_e;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:100
+msgid ""
+"This plugin allows you to create .zip files from your themes and plugins "
+"which will be ready to use for installing them on another WordPress website"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:103
+msgid ""
+"Select below the themes and plugin that you wish to export and then click on "
+"\"Create .zip files\" to generate the files."
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:106
+msgid ""
+"When generated, the .zip files are stored into your upload directory and the "
+"links to those files are listed below. "
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:107
+msgid ""
+"You can then download those files by clicking on the corresponding links at "
+"the bottom of this page."
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:110
+msgid ""
+"Once you're done downloading your .zip files you can delete theme form the "
+"server by clicking on \"Delete all .zip files\"."
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:114
+msgid ""
+"The upload directory is not writable on this server, you must make it "
+"writable for this plugin to work"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:117
+msgid "Select which themes and plugins you wish to export"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:121
+msgid "Select the themes you want to export"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:126
+msgid "Select the plugins you want to export"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:131
+msgid "Select the mu-plugins you want to export"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:138
+msgid "Create .zip files"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:142
+msgid "Download your themes and plugins in their .zip format below"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:144
+msgid "List of theme .zip files available"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:149
+msgid "List of plugin .zip files available"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:150
+msgid "The normal plugins"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:152
+msgid "The mu-plugins"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:159
+msgid "Delete all .zip files"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:193
+msgid "No plugin on your WordPress"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:214
+msgid "No mu-plugin on your WordPress"
+msgstr ""
+
+#: ../includes/class-sirn-theme-and-plugin-exporter-admin-page.php:233
+msgid "No file available"
+msgstr ""
