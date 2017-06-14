@@ -241,7 +241,7 @@ class Sirn_Theme_And_Plugin_Exporter_Files_Manager
 				$current_dash = empty( $current ) ? '' : $current . '/';
 				$scan = scandir( $source . '/' . $current );
 				foreach( $scan as $file ){
-					if( in_array( $file, array( '.', '..', '.svn' ) ) ) continue;
+					if( in_array( $file, array( '.', '..', '.svn', '.git', '.gitignore', '.buildpath', '.project' ) ) ) continue;
 					if( is_dir( $source . '/' . $current_dash . $file ) ){
 						array_push( $dir_stack, $current_dash . $file );
 					}else{
@@ -277,7 +277,7 @@ class Sirn_Theme_And_Plugin_Exporter_Files_Manager
 		$zip = new ZipArchive();
 		$dir_stack = array( '');
 		$sucess = $zip->open( $destination , ZipArchive::CREATE );
-		if( $sucess ){
+		if( $sucess && ! in_array( $source, array( '.', '..', '.svn', '.git', '.gitignore', '.buildpath', '.project' ) ) ){
 			$zip->addFile( $source , $filename );
 		}
 		$zip->close();

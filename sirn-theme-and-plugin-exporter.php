@@ -5,7 +5,7 @@
  * Author: Nathanael SIRMONS
  * Author URI: http://www.sirmons.fr
  * Description: Allows you to export you're themes and plugins without ftp access. This plugin will generate .zip files from your Themes and Plugins so you can download them and later install them elsewhere.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: sirn-plug-export
  * Domain Path: languages/
  * Licence: GPLv2 or later version
